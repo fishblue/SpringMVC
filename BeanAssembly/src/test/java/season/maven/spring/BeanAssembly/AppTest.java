@@ -37,7 +37,7 @@ public class AppTest
      */
     public void testApp()
     {
-    	ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-application.xml");
+    	ApplicationContext ctx = new ClassPathXmlApplicationContext("conf/spring-application.xml");
     	FooBean foo = (FooBean) ctx.getBean("fooBean");
     	foo.foo();
         assertTrue( true );
