@@ -1,4 +1,4 @@
-package season.maven.spring.AutowiringBean;
+package season.maven.spring.AutowiringBean.Service;
 
 import org.junit.Assert;
 import org.junit.Test;

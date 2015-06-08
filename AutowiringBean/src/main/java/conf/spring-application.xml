@@ -8,5 +8,5 @@
       http://www.springframework.org/schema/context
       http://www.springframework.org/schema/context/spring-context.xsd">
 	<context:annotation-config></context:annotation-config>
-	<context:component-scan base-package="season.maven.spring.AutowiringBean.Service"></context:component-scan>
+	<context:component-scan base-package="season.maven.spring.AutowiringBean"></context:component-scan>
 </beans>
