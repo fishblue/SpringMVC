@@ -14,4 +14,13 @@ public class FooBean {
 	public void foo(){
 		System.out.println(foo);
 	}
+
+	public int getFoo() {
+		return foo;
+	}
+
+	public void setFoo(int foo) {
+		this.foo = foo;
+	}
+	
 }
