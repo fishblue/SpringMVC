@@ -13,7 +13,7 @@ import season.maven.spring.AutowiringBean.Service.FooService;
  * @author Administrator
  *
  */
-public class TFooService {
+public class TestFooService {
 	@Test
 	public void TFooService(){
 		ApplicationContext ctx = null;
